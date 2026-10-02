@@ -1,0 +1,42 @@
+{
+  "name": "subkit",
+  "description": "Teachers produce a full substitute lesson plan in five minutes from their own curriculum.",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Mokhles Ben Moallem <management@metatunisie.com>",
+  "license": "MIT",
+  "homepage": "https://mokhless2.github.io/subkit/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mokhless2/subkit.git"
+  },
+  "keywords": [
+    "subkit",
+    "micro-tool",
+    "client-side",
+    "privacy-first",
+    "offline-tool",
+    "class",
+    "open-source"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "qrcode-generator": "^2.0.4",
+    "fflate": "^0.8.3",
+    "js-yaml": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}
